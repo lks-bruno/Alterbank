@@ -1,0 +1,21 @@
+footer {
+    background: linear-gradient(90deg, #AA0811 0%, #E63147 100%);
+}
+
+.list-footer {
+    li {
+        margin-bottom: 12px;
+    }
+
+    a {
+        color: $primary-ligth;
+    }
+}
+
+
+.mr {
+    @include responsive(s) {
+        margin-left: 72px;
+    }
+}
+

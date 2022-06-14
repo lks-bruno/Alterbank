@@ -1,0 +1,101 @@
+.dropshadow-balls {
+    box-shadow: 0px 94px 121px rgba(194, 8, 8, 0.14),
+     0px 39.271px 50.5509px rgba(194, 8, 8, 0.10064), 
+     0px 20.9961px 27.0269px rgba(194, 8, 8, 0.083455), 
+     0px 11.7703px 15.1511px rgba(194, 8, 8, 0.07), 
+     0px 6.2511px 8.04662px rgba(194, 8, 8, 0.056545), 
+     0px 2.60122px 3.34838px rgba(194, 8, 8, 0.0393604);
+}
+
+
+.bg-icon-check {
+    &::after {
+        background-image: url('../svg/icon-check.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.34));
+    }
+
+}
+
+.bg-icon-mobile {
+    &::after {
+        background-image: url('../svg/bg-icon-mobile.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.308));
+    }
+}
+.bg-icon-time {
+    &::after {
+        background-image: url('../svg/bg-icon-time.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.308));
+    }
+}
+.bg-icon-card {
+    &::after {
+        background-image: url('../svg/bg-icon-card.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.308));
+    }
+}
+.bg-icon-contac{
+    &::after {
+        background-image: url('../svg/bg-icon-contac.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.308));
+    }
+}
+.bg-icon-config {
+    &::after {
+        background-image: url('../svg/bg-icon-config.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top:16px;
+        left: 8px;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px rgba(220, 18, 18, 0.308));
+    }
+}
+
+.icon {
+    border-radius: 16px;
+   
+    box-shadow: 0px 37.9531px 30.3625px rgba(238, 112, 112, 0.0503198),
+    0px 20.2916px 16.2332px rgba(238, 112, 112, 0.0417275),
+    0px 11.3753px 9.10022px rgba(238, 112, 112, 0.035), 
+    0px 6.04132px 4.83306px rgba(238, 112, 112, 0.0282725),
+    0px 2.51393px 2.01114px rgba(238, 112, 112, 0.0196802);
+}
+
